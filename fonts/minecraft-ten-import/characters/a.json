@@ -1,14 +1,14 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "minecraft-ten:create_train_casing",
-		"particle": "minecraft-ten:create_train_casing"
+		"0": "minecraft-ten-import:pride",
+		"particle": "minecraft-ten-import:pride"
 	},
 	"elements": [
 		{
-			"from": [8.25, 4, 9.5],
-			"to": [7.75, 3, 6.5],
-			"rotation": {"angle": 0, "axis": "y", "origin": [-11, 0, 6.5]},
+			"from": [8.25, 4.25, 9.5],
+			"to": [7.75, 3.25, 6.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-11, 0.25, 6.5]},
 			"faces": {
 				"north": {"uv": [11.8325, 11.312, 12.3325, 12.312], "texture": "#0"},
 				"east": {"uv": [1.432, 14.096, 1.576, 14.216], "texture": "#0"},
@@ -19,9 +19,9 @@
 			}
 		},
 		{
-			"from": [8.25, 2, 9.5],
-			"to": [7.75, 0, 6.5],
-			"rotation": {"angle": 0, "axis": "y", "origin": [-11, 0, 6.5]},
+			"from": [8.25, 2.25, 9.5],
+			"to": [7.75, 0.25, 6.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-11, 0.25, 6.5]},
 			"faces": {
 				"north": {"uv": [11.13525, 12.064, 11.63525, 14.064], "texture": "#0"},
 				"east": {"uv": [1.416, 14.144, 1.672, 14.208], "texture": "#0"},
@@ -32,9 +32,9 @@
 			}
 		},
 		{
-			"from": [6.25, 0, 6.5],
-			"to": [9.75, 5, 9.5],
-			"rotation": {"angle": 0, "axis": "y", "origin": [-11, 0, 6.5]},
+			"from": [6.25, 0.25, 6.5],
+			"to": [9.75, 5.25, 9.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-11, 0.25, 6.5]},
 			"faces": {
 				"north": {"uv": [0.48, 1.1, 0.928, 3.1], "texture": "#0"},
 				"east": {"uv": [1.464, 13.808, 1.352, 14.224], "texture": "#0"},
@@ -43,6 +43,19 @@
 				"up": {"uv": [0.48, 1.104, 0.92, 0], "texture": "#0"},
 				"down": {"uv": [0.928, 4.2, 0.48, 3.104], "texture": "#0"}
 			}
+		},
+		{
+			"from": [10, 5.5, 9.75],
+			"to": [6, 0, 6.25],
+			"rotation": {"angle": 0, "axis": "y", "origin": [17.5, 36.5, 9.75]},
+			"faces": {
+				"north": {"uv": [1.36, 13.728, 1.484, 13.948], "texture": "#0"},
+				"east": {"uv": [5.072, 13.408, 5.868, 14.028], "texture": "#0"},
+				"south": {"uv": [1.36, 13.728, 1.484, 13.948], "texture": "#0"},
+				"west": {"uv": [4.176, 13.456, 4.796, 14.22], "texture": "#0"},
+				"up": {"uv": [1.36, 13.728, 1.484, 13.948], "texture": "#0"},
+				"down": {"uv": [1.36, 13.728, 1.484, 13.948], "texture": "#0"}
+			}
 		}
 	],
 	"groups": [
@@ -50,7 +63,7 @@
 			"name": "A",
 			"origin": [0, 0, 0],
 			"color": 0,
-			"children": [0, 1, 2]
+			"children": [0, 1, 2, 3]
 		}
 	]
 }
