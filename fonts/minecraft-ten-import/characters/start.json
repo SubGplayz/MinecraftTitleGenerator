@@ -1,0 +1,30 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "minecraft-ten-import:pride",
+		"particle": "minecraft-ten-import:pride"
+	},
+	"elements": [
+		{
+			"from": [8, 0, 6.25],
+			"to": [8, 5.5, 9.75],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 6.25]},
+			"faces": {
+				"north": {"uv": [11.04, 9.248, 11.04, 14.748], "texture": "#0"},
+				"east": {"uv": [6.032, 13.712, 6.812, 14.3], "texture": "#0"},
+				"south": {"uv": [11.344, 8.976, 11.344, 14.476], "texture": "#0"},
+				"west": {"uv": [1.376, 14.096, 1.532, 14.204], "texture": "#0"},
+				"up": {"uv": [11.568, 9.872, 11.568, 13.372], "texture": "#0"},
+				"down": {"uv": [10.592, 10.864, 10.592, 14.364], "texture": "#0"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "START",
+			"origin": [0, 0, 0],
+			"color": 0,
+			"children": [0]
+		}
+	]
+}

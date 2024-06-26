@@ -43,6 +43,8 @@
       [87, 108, 149, 170],
       [172, 194, 242, 263]
     ],
-    "borderless": true
+    "borderless": true,
+    "forcedTerminators": true,
+    "terminatorSpace": false
   }
 ]
