@@ -27,5 +27,22 @@
       [132, 148, 194, 210]
     ],
     "terminatorSpace": true
+  },
+  {
+    "id": "minecraft-ten-import",
+    "author": "SubGplayz",
+    "height": 5,
+    "border": 266,
+    "faces": [
+      [23, 62],
+      [109, 148],
+      [195, 195, 234, 242]
+    ],
+    "ends": [
+      [0, 22, 63, 84],
+      [87, 108, 149, 170],
+      [172, 194, 242, 263]
+    ],
+    "borderless": true
   }
 ]
